@@ -1,0 +1,135 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "k@gmail.com",
+    "userPassword": "Abc@1234"
+}
+HTTP/1.1 200 OK
+Date: Wed, 31 May 2023 11:12:32 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 347
+ETag: W/"15b-Zcd+dlBIoe4rgXwbMGzIBIYfXHA"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzIzMGZmOWM0ZDBjNTFmNGYyMTgxNDUiLCJ1c2VyRW1haWwiOiJrQGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk4ODc2NTQzMjEsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1MzE1NTIsImV4cCI6MTcxNzA4OTE1Mn0.fSReBa__O4dP70uJsbWSyYiPq89wKQLjXT8wRwpHEMY",
+    "userId": "63230ff9c4d0c51f4f218145",
+    "message": "Login Successfully"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/add-product
+Proxy:			<none>
+Request params:	productName=Car
+				productAddedBy=63230ff9c4d0c51f4f218145
+				productCategory=Vehicle
+				productSubCategory=4Wheeler
+				productPrice=11000
+				productDescription=Car
+				productFor=Vehicle
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzIzMGZmOWM0ZDBjNTFmNGYyMTgxNDUiLCJ1c2VyRW1haWwiOiJrQGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk4ODc2NTQzMjEsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1MzE1NTIsImV4cCI6MTcxNzA4OTE1Mn0.fSReBa__O4dP70uJsbWSyYiPq89wKQLjXT8wRwpHEMY
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = productImage; filename = car.jpg
+				Content-Type: application/octet-stream
+
+				C:\Users\SPURGE\Downloads\car.jpg
+Body:			<none>
+HTTP/1.1 201 Created
+Date: Wed, 31 May 2023 11:12:34 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 79
+ETag: W/"4f-Ni3VkpULwoFFOzqM8VYmvhhBn9Q"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "productId": "64772ba2568c3e9fb17b73f8",
+    "message": "Product Added Successfully"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/create-order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzIzMGZmOWM0ZDBjNTFmNGYyMTgxNDUiLCJ1c2VyRW1haWwiOiJrQGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk4ODc2NTQzMjEsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1MzE1NTIsImV4cCI6MTcxNzA4OTE1Mn0.fSReBa__O4dP70uJsbWSyYiPq89wKQLjXT8wRwpHEMY
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "orders": [
+        "64673716568c3e9fb1705099"
+    ],
+    "productOrderId": [
+        ""
+    ],
+    "message": "Order Placed Successfully"
+}
+HTTP/1.1 400 Bad Request
+Date: Wed, 31 May 2023 11:12:41 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 30
+ETag: W/"1e-7Pm1iEc6pg0CTWutantt/gZRTF4"
+Vary: Accept-Encoding
+Connection: close
+
+{
+    "message": "Wrong Product ID"
+}
