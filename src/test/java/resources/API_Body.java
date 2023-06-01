@@ -4,6 +4,7 @@ public class API_Body {
 
 	public String LoginBody()
 	{
+//commenting the body part
 		return "{\r\n"
 				+ "\"userEmail\":\"k@gmail.com\",\r\n"
 				+ "\"userPassword\":\"Abc@1234\"\r\n"
